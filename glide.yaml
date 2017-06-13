@@ -1,0 +1,10 @@
+package: github.com/sambaiz/lottery-log
+import:
+- package: github.com/satori/go.uuid
+  version: ^1.1.0
+- package: go.uber.org/zap
+  version: ^1.4.1
+  subpackages:
+  - zapcore
+- package: gopkg.in/natefinch/lumberjack.v2
+  version: ^2.1.0
