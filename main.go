@@ -55,7 +55,7 @@ func main() {
 
 		writeLotteryLog(loggers, uid, prize, isWin)
 
-		time.Sleep(1 * time.Millisecond)
+		time.Sleep(10 * time.Millisecond)
 
 		if !isWin {
 			continue
